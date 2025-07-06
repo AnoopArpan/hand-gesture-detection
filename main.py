@@ -49,7 +49,7 @@ def recognize_gesture_and_confidence(landmarks):
     return str(gesture), confidence
 
 # Initialize webcam
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 # Prepare the text to display accuracy
 accuracy_text = f"Model Accuracy: {accuracy:.2f}"
